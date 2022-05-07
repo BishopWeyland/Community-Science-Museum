@@ -78,6 +78,7 @@ h1 {
   padding: 0 10%;
   width: 100%;
   color: var(---black);
+  height: 10vh;
 }
 
 .logo img {
@@ -102,8 +103,9 @@ h1 {
 
 .hero {
   display: flex;
-  position: relative;
-  height: 80vh;
+  justify-content: space-between;
+  width: 100vw;
+  height: 90vh;
   overflow: hidden;
   align-items: center;
 }
@@ -123,31 +125,25 @@ h1 {
   font-size: 2rem;
 }
 
-.hero_img img {
-  height: 600px;
-  object-fit: cover;
-  border-radius: 871px 0px 1117px 246px;
-}
-
 .hero_img {
+  height: auto;
+  width: 100%;
   transform: translateX(100px);
-  margin-top: 50px;
-  position: relative;
-  right: -50px;
-  z-index: 9;
-  width: 60%;
+  background-color: var(--brand-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 871px 0px 1117px 246px;
+  rotate: 26deg;
 }
 
-.img-decoration {
-  background-color: #46b89b;
-  height: 704px;
-  width: 908px;
+.hero_img img {
   border-radius: 871px 0px 1117px 246px;
-  right: -50px;
-  top: -60px;
-  z-index: -99999;
-  position: absolute;
-  rotate: 26deg;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  rotate: -26deg;
 }
 
 /* exhibit icons  */
