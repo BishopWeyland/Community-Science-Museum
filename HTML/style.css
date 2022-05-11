@@ -360,3 +360,62 @@ h1 {
 .news_img h2 {
   color: white;
 }
+
+footer {
+  background-color: #070707;
+  margin-top: 60px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+}
+
+footer h2 {
+  color: white;
+}
+
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px 20px 60px;
+}
+
+.footer_info {
+  max-width: 300px;
+}
+
+.footer_info p {
+  margin: 20px 0px 30px;
+}
+
+.footer_nav li {
+  margin-bottom: 10px;
+}
+
+.footer_aditional_info li {
+  margin-bottom: 10px;
+}
+
+.footer_bottom {
+  display: flex;
+  padding-left: 60px;
+}
+
+.social_media_icons ul {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.social_media_icons i {
+  margin-right: 20px;
+  font-size: 28px;
+}
+
+.copyright {
+  margin: 20px 0px;
+}
