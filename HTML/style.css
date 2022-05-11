@@ -6,7 +6,7 @@
 
 :root {
   --brand-green: #46b89b;
-  --brand-prupe: #622260;
+  --brand-purlpe: #622260;
   --white: #e5e5e5;
   --black: #070707;
 }
@@ -83,8 +83,6 @@ h1 {
 
 .logo img {
   height: 70px;
-  /* margin-left: 70px; */
-  background-color: #070707;
 }
 
 .nav_container a {
@@ -258,27 +256,107 @@ h1 {
 .visit_hero {
   display: flex;
   justify-content: space-between;
+  width: fit-content;
+  overflow: hidden;
+  align-items: center;
 }
 
-.visit_hero img {
-  height: 600px;
+.visit_hero_img {
+  margin-top: 30px;
+  height: auto;
+  width: 100%;
+  transform: translateX(-150px);
+  background-color: var(--brand-purlpe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 127px 452px 196px 362px;
-  position: absolute;
-  left: -190px;
-}
-
-.visit_decoration_img {
-  background-color: #622260;
-  height: 600px;
-  width: 910px;
-  border-radius: 127px 452px 196px 362px;
-  z-index: -99999;
-  left: -190px;
-  position: absolute;
   rotate: -10deg;
 }
 
+.visit_hero_img img {
+  border-radius: 127px 452px 196px 362px;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  rotate: 10deg;
+}
+
 .visit_hero_content {
+  margin: 90px 0px 0px 165px;
+  width: 40%;
+  z-index: 99;
+}
+
+.visit_hero_content p {
+  margin-bottom: 30px;
+}
+
+/* explore banner */
+
+.explore_banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/pexels-felix-mittermeier-956999.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px;
+}
+
+.explore_banner h2 {
+  color: white;
+  margin: 30px 0px;
+}
+
+.explore_banner a {
+  margin-bottom: 30px;
+}
+
+/* special events */
+
+.flex_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.special_events {
+  margin: 30px 0px;
+  padding-right: 80px;
+}
+
+.special_events h3 {
+  font-size: 30px;
+  font-family: "Archivo";
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.special_events a:visited {
+  color: inherit;
+}
+
+.news_img {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/brett-meliti-RgkYMfFopIA-unsplash.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 83px;
+  margin: 30px 0px;
+}
+
+.news_img h2 {
+  color: white;
 }
