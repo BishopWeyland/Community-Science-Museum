@@ -475,9 +475,17 @@ footer h2 {
   .info_card {
     margin: 10px;
   }
+
+  .exhibit_card {
+    height: 350px;
+  }
+
+  .exhibit_card img {
+    height: 350px;
+  }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .container_info {
     align-items: center;
   }
@@ -488,5 +496,20 @@ footer h2 {
 
   .info_card {
     width: 400px;
+  }
+
+  .exhibit_card {
+    height: 200px;
+  }
+
+  .exhibit_card img {
+    height: 200px;
+  }
+
+  .exhibit_content h2 {
+    font-size: 20px;
+  }
+  .exhibit_content p {
+    font-size: 12px;
   }
 }
