@@ -155,7 +155,7 @@ h1 {
   justify-content: space-between;
 }
 
-.flex_row_space-between i {
+.hexagon_container i {
   color: white;
   font-size: 50px;
 }
@@ -418,6 +418,48 @@ footer h2 {
 
 .copyright {
   margin: 20px 0px;
+}
+
+/* exhibits page */
+
+.exhibit_header {
+  margin-left: 100px;
+}
+
+.flex_comlumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.exhibit_card {
+  display: flex;
+  margin: 30px 100px;
+  justify-content: center;
+  height: 400px;
+}
+
+.exhibit_content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--brand-green);
+  padding: 20px 70px;
+  border-radius: 83px 0px 0px 83px;
+  max-width: 700px;
+}
+
+.hexagon_container2 {
+  left: -40px;
+  position: absolute;
+}
+
+.exhibit_card_img {
+  height: 400px;
+}
+
+.exhibit_card_img img {
+  height: 100%;
+  border-radius: 0px 83px 83px 0px;
 }
 
 /* smaller screen/tablet */
