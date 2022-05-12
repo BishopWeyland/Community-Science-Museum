@@ -419,3 +419,32 @@ footer h2 {
 .copyright {
   margin: 20px 0px;
 }
+
+/* smaller screen/tablet */
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .container_info {
+    margin: 50px;
+  }
+
+  .info_card {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container_info {
+    align-items: center;
+  }
+
+  .container_info {
+    flex-direction: column;
+  }
+
+  .info_card {
+    width: 400px;
+  }
+}
