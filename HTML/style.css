@@ -613,3 +613,16 @@ footer h2 {
     align-items: center;
   }
 }
+
+.info_card {
+  border-radius: 10px;
+}
+
+.info_card img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.news_img {
+  border-radius: 10px;
+  text-align: center;
+}
