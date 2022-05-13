@@ -677,6 +677,10 @@ footer h2 {
   .visit_hero_img img {
     border-radius: 0px;
     rotate: 0deg;
+    border: 5px;
+    border-style: solid dashed solid solid;
+    border-color: var(--brand-purlpe) var(--brand-green) var(--brand-purlpe)
+      var(--brand-purlpe);
   }
 
   .explore_banner {
