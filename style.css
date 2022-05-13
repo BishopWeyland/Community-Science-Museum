@@ -584,8 +584,6 @@ footer h2 {
   }
 }
 
-/* phone @media */
-
 @media (max-width: 800px) {
   /* global styles */
   p {
@@ -630,5 +628,18 @@ footer h2 {
 
   .news_img {
     border-radius: 10px;
+  }
+}
+
+/* phone @media */
+
+@media (max-width: 420px) {
+  .layout_margin {
+    margin: 0% 0%;
+  }
+
+  .info_card {
+    width: 250px;
+    margin: 20px 0px;
   }
 }
