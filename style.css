@@ -406,9 +406,9 @@ footer h2 {
 }
 
 .footer_top {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 60px 20px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
 }
 
 .footer_info {
@@ -420,16 +420,21 @@ footer h2 {
 }
 
 .footer_nav li {
+  display: flex;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 .footer_aditional_info li {
+  display: flex;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 .footer_bottom {
-  display: flex;
-  padding-left: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
 }
 
 .social_media_icons ul {
@@ -443,6 +448,8 @@ footer h2 {
 }
 
 .copyright {
+  display: flex;
+  justify-content: center;
   margin: 20px 0px;
 }
 
