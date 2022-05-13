@@ -679,15 +679,33 @@ footer h2 {
 
   .hero {
     height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(images/michael-van-kerckhove-iN3xWBNHmnw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border: 5px;
+    border-style: solid dashed solid solid;
+    border-color: var(--brand-green) var(--brand-purlpe) var(--brand-green)
+      var(--brand-green);
+  }
+
+  .hero_content {
+    color: white;
+  }
+
+  .hero_content .btnpurple {
+    color: white;
+  }
+
+  .hero_content .btnpurple:hover {
+    background-color: white;
+    border: solid 2px white;
+    color: black;
   }
 
   .hero_img {
-    height: 200px;
-    transform: translateX(40px);
-  }
-
-  .hero_img img {
-    height: 200px;
+    display: none;
   }
 
   /* height: auto;
