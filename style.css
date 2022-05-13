@@ -605,8 +605,36 @@ footer h2 {
     font-size: 30px;
   }
 
+  .hero {
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(images/michael-van-kerckhove-iN3xWBNHmnw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border: 5px;
+    border-style: solid dashed solid solid;
+    border-color: var(--brand-green) var(--brand-purlpe) var(--brand-green)
+      var(--brand-green);
+  }
+
   .hero_content {
-    margin: 30px 20px;
+    color: white;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .hero_content .btnpurple {
+    color: white;
+  }
+
+  .hero_content .btnpurple:hover {
+    background-color: white;
+    border: solid 2px white;
+    color: black;
+  }
+
+  .hero_img {
+    display: none;
   }
 
   .hero_content p {
@@ -651,6 +679,19 @@ footer h2 {
     rotate: 0deg;
   }
 
+  .explore_banner {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .layout_margin {
+    padding: 20px;
+  }
+
+  .special_events {
+    padding: 0px;
+  }
+
   .news_img {
     border-radius: 10px;
   }
@@ -676,57 +717,6 @@ footer h2 {
   .layout_margin {
     margin: 0% 0%;
   }
-
-  .hero {
-    height: 300px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(images/michael-van-kerckhove-iN3xWBNHmnw-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 20px;
-    border: 5px;
-    border-style: solid dashed solid solid;
-    border-color: var(--brand-green) var(--brand-purlpe) var(--brand-green)
-      var(--brand-green);
-  }
-
-  .hero_content {
-    color: white;
-  }
-
-  .hero_content .btnpurple {
-    color: white;
-  }
-
-  .hero_content .btnpurple:hover {
-    background-color: white;
-    border: solid 2px white;
-    color: black;
-  }
-
-  .hero_img {
-    display: none;
-  }
-
-  /* height: auto;
-  width: 100%;
-  transform: translateX(100px);
-  background-color: var(--brand-green);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 871px 0px 1117px 246px;
-  rotate: 26deg;
-}
-
-.hero_img img {
-  border-radius: 871px 0px 1117px 246px;
-  z-index: 2;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  rotate: -26deg;
-} */
 
   .exhibit_hero_content {
     width: 200px;
