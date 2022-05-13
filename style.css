@@ -659,6 +659,10 @@ footer h2 {
 /* phone @media */
 
 @media (max-width: 420px) {
+  nav li {
+    display: none;
+  }
+
   .layout_margin {
     margin: 0% 0%;
   }
