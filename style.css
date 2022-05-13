@@ -662,6 +662,7 @@ footer h2 {
   .nav_container {
     padding: 0px;
     margin: 10px 20px;
+    width: auto;
   }
 
   .logo img {
