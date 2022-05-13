@@ -583,6 +583,22 @@ footer h2 {
   }
 }
 
+@media (max-width: 890px) {
+  .grid_container {
+    grid-template-columns: 235px;
+    justify-content: center;
+  }
+
+  .exhibit_hexagon {
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .hexagon_container {
+    margin-right: 20px;
+  }
+}
+
 @media (max-width: 800px) {
   /* global styles */
   p {
@@ -638,11 +654,6 @@ footer h2 {
 
   .hero_content p {
     font-size: 14px;
-  }
-
-  .flex_row_space-between {
-    flex-direction: column;
-    align-items: center;
   }
 
   .info_card {
