@@ -755,11 +755,16 @@ footer h2 {
   }
 
   .footer_top {
-    grid-template-columns: 1fr;
   }
 
   .footer_info {
     text-align: center;
     margin-bottom: 30px;
+  }
+
+  .footer_nav {
+  }
+
+  .footer_aditional_info {
   }
 }
