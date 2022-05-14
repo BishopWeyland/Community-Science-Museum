@@ -411,10 +411,6 @@ footer h2 {
   padding: 30px;
 }
 
-.footer_info {
-  max-width: 300px;
-}
-
 .footer_info p {
   margin: 20px 0px 30px;
 }
@@ -756,5 +752,14 @@ footer h2 {
   .info_card {
     width: 300px;
     margin: 20px 0px;
+  }
+
+  .footer_top {
+    grid-template-columns: 1fr;
+  }
+
+  .footer_info {
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
