@@ -587,7 +587,9 @@ footer h2 {
   .exhibit_content {
     border-radius: 0px 0px 10px 10px;
     width: 400px;
-    height: 300px;
+    height: 270px;
+    display: inline;
+    vertical-align: top;
   }
 
   .exhibit_card_img {
@@ -605,7 +607,7 @@ footer h2 {
 
   .hexagon_container2 {
     left: 40%;
-    top: -110%;
+    top: -122%;
   }
 }
 
@@ -802,8 +804,6 @@ footer h2 {
     width: 300px;
     height: 270px;
     padding: 20px 20px;
-    display: inline;
-    vertical-align: top;
   }
 
   .exhibit_content p {
