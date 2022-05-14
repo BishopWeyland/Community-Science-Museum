@@ -793,6 +793,11 @@ footer h2 {
 
   /* exhibit mobile page  */
 
+  .exhibit_header {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
   .exhibit_content {
     width: 300px;
     height: 270px;
