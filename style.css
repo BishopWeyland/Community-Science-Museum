@@ -491,6 +491,57 @@ footer h2 {
   border-radius: 0px 83px 83px 0px;
 }
 
+/* visit page */
+
+.visit_grid {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  gap: 100px;
+  margin: 30px 0px;
+}
+
+.visit_content {
+  margin-left: 50px;
+}
+
+.visit_img img {
+  width: 400px;
+  border-radius: 83px;
+}
+.visit_grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.map_info {
+  background-color: var(--brand-green);
+  width: 600px;
+  height: fit-content;
+  position: relative;
+  border-radius: 83px;
+}
+
+.map_info h2 {
+  margin: 40px 40px 0px 40px;
+}
+
+.map_info p {
+  margin: 0px 40px 40px 40px;
+}
+
+.visit_info_cards {
+  background-color: var(--brand-green);
+  padding: 40px;
+  border-radius: 83px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.hexagon_container3 {
+  position: absolute;
+  left: -10%;
+}
+
 /* smaller screen/tablet */
 @media (max-width: 1500px) {
   /* home page */
