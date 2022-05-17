@@ -542,6 +542,54 @@ footer h2 {
   left: -10%;
 }
 
+/* support page */
+.support_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.support_card {
+  display: flex;
+  background-color: var(--brand-green);
+  padding: 40px;
+
+  margin: 30px 0px;
+}
+
+.sc1 {
+  border-radius: 83px 0px 0px 0px;
+}
+
+.sc3 {
+  border-radius: 0px 0px 0px 83px;
+}
+
+.support_content p {
+  margin-bottom: 30px;
+}
+
+.support_image {
+  margin: 30px 0px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.si1 {
+  border-radius: 0px 83px 0px 0px;
+  background-image: url(images/luke-ellis-craven-400722.jpg);
+}
+
+.si2 {
+  background-image: url(images/pexels-liza-summer-6348129\(1\)-kopi.jpg);
+}
+
+.si3 {
+  border-radius: 0px 0px 83px 0px;
+  background-image: url(images/samuel-zeller-158996.jpg);
+}
+
 /* smaller screen/tablet */
 @media (max-width: 1500px) {
   /* home page */
