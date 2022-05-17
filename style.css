@@ -836,6 +836,20 @@ footer h2 {
   .news_img {
     border-radius: 10px;
   }
+
+  /* support page tablet */
+
+  .support_grid {
+    display: flex;
+  }
+
+  .support_card {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .support_img {
+    border-radius: 10px 10px 0px 0px;
+  }
 }
 
 /* phone @media */
