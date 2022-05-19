@@ -19,9 +19,8 @@
   box-sizing: border-box;
 }
 
-/* remove! */
-img {
-  height: 200px;
+html {
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -113,6 +112,14 @@ h1 {
   text-decoration: none;
 }
 
+.nav_container li:hover {
+  border-bottom: solid 2px black;
+}
+
+.active {
+  border-bottom: solid 2px var(--brand-green);
+}
+
 .nav_container ul {
   display: flex;
   width: 300px;
@@ -194,8 +201,12 @@ h1 {
   text-decoration: none;
 }
 
+.exhibit_hexagon a:hover {
+  border-bottom: solid 2px var(--brand-purlpe);
+}
+
 .hexagon_container {
-  background-color: #622260;
+  background-color: var(--brand-purlpe);
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   height: 95px;
   width: 95px;
@@ -203,6 +214,14 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: 30px 0px;
+}
+
+.hexagon_container:hover {
+  background: radial-gradient(circle, #622260 40%, #ba41b6 90%, #e5e5e5 100%);
+}
+
+.hexagon_container a:hover {
+  border-bottom: solid 2px transparent;
 }
 
 /* Exhibit hero */
@@ -486,6 +505,10 @@ footer h2 {
   position: absolute;
 }
 
+.hexagon_container2:hover {
+  background: #622260;
+}
+
 .exhibit_card_img {
   height: 400px;
 }
@@ -520,13 +543,13 @@ footer h2 {
 .visit_grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 50px;
   height: fit-content;
 }
 
 .map_info {
   background-color: var(--brand-green);
-  width: 600px;
+  width: 500px;
   height: fit-content;
   position: relative;
   border-radius: 83px;
@@ -542,17 +565,27 @@ footer h2 {
 
 .visit_info_cards {
   background-color: var(--brand-green);
-  padding: 55px;
+  padding: 50px;
   border-radius: 83px;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .hexagon_container3 {
   position: absolute;
-  left: -10%;
-  top: 20px;
+  height: 55px;
+  width: 55px;
+  left: -4%;
+  top: 25px;
   z-index: 2;
+}
+
+.hexagon_container3:hover {
+  background: #622260;
+}
+
+.hexagon_container3 i {
+  font-size: 30px;
 }
 
 /* support page */
