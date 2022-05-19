@@ -444,6 +444,10 @@ footer h2 {
   justify-content: center;
 }
 
+footer a:hover {
+  border-bottom: solid 2px white;
+}
+
 .footer_aditional_info li {
   display: flex;
   margin-bottom: 10px;
@@ -465,6 +469,10 @@ footer h2 {
   font-size: 28px;
 }
 
+.social_media_icons a:hover {
+  border-bottom: solid 2px transparent;
+}
+
 .copyright {
   display: flex;
   justify-content: center;
@@ -473,10 +481,6 @@ footer h2 {
 }
 
 /* exhibits page */
-
-.exhibit_header {
-  margin-left: 100px;
-}
 
 .flex_comlumn {
   display: flex;
@@ -904,7 +908,6 @@ footer h2 {
     list-style-type: none;
     margin: 0;
     text-align: center;
-    cursor: pointer;
     box-sizing: 15px;
     border-bottom: 2px solid transparent;
   }
