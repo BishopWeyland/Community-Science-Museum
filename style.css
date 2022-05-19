@@ -839,7 +839,7 @@ footer h2 {
     width: 0;
     height: 0;
     overflow: hidden;
-    background-color: rgb(200, 200, 200, 0.85);
+    background-color: var(--brand-green);
     z-index: 1;
     transition: all 0.3s ease;
     display: flex;
