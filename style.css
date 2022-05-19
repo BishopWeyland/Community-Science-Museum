@@ -506,6 +506,11 @@ footer h2 {
 
 .visit_content {
   margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.visit_content p {
+  margin-bottom: 30px;
 }
 
 .visit_img img {
@@ -515,6 +520,8 @@ footer h2 {
 .visit_grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  height: fit-content;
 }
 
 .map_info {
@@ -535,7 +542,7 @@ footer h2 {
 
 .visit_info_cards {
   background-color: var(--brand-green);
-  padding: 40px;
+  padding: 55px;
   border-radius: 83px;
   position: relative;
   margin-bottom: 25px;
@@ -544,6 +551,8 @@ footer h2 {
 .hexagon_container3 {
   position: absolute;
   left: -10%;
+  top: 20px;
+  z-index: 2;
 }
 
 /* support page */
@@ -751,7 +760,7 @@ footer h2 {
 
   .menu_wrapper {
     position: absolute;
-    top: 25px;
+    top: 23px;
     right: 15px;
     width: 50px;
     height: 50px;
