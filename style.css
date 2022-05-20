@@ -532,6 +532,7 @@ footer a:hover {
 
 .visit_content {
   width: 250px;
+  margin-bottom: 30px;
 }
 
 .visit_content p {
@@ -1071,6 +1072,52 @@ footer a:hover {
     height: 200px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
+  }
+
+  /* visit page */
+
+  .visit_flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hour_content {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+
+  .hour_content li {
+    font-size: 12px;
+  }
+
+  .visit_img {
+    width: fit-content;
+  }
+
+  .visit_img img {
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .map_info {
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #gmap_canvas {
+    width: 400px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .visit_info_cards {
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .hexagon_container3 {
+    left: 40%;
+    top: -55px;
   }
 }
 
