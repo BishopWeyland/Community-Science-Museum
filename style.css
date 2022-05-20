@@ -1081,8 +1081,23 @@ footer a:hover {
     align-items: center;
   }
 
+  .visit_content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .visit_content a {
+    width: fit-content;
+    text-align: center;
+  }
+
   .hour_content {
-    width: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 30px;
   }
 
@@ -1210,6 +1225,15 @@ footer a:hover {
   }
 
   /* visit page mobile */
+
+.visit_content {
+  width: 300px;
+}
+
+.hour_content {
+  width: 300px;
+}
+
     .visit_img img {
       width: 300px;
       margin-bottom: 30px;
