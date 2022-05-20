@@ -674,6 +674,11 @@ footer a:hover {
 }
 
 @media (max-width: 1400px) {
+  .gmap_canvas {
+    width: fit-content;
+    display: flex;
+  }
+
   .map_info {
     width: 500px;
   }
@@ -745,9 +750,17 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .align_items {
+    align-items: center;
+  }
+
   .visit_info_cards {
     width: 500px;
     margin-left: 0;
+  }
+
+  #gmap_canvas {
+    margin-bottom: 30px;
   }
 }
 
