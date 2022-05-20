@@ -524,16 +524,14 @@ footer a:hover {
 
 /* visit page */
 
-.visit_grid {
-  display: grid;
-  grid-template-columns: 1fr 200px 1fr;
-  gap: 100px;
+.visit_flex {
   margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .visit_content {
-  margin-left: 50px;
-  margin-bottom: 30px;
+  width: 250px;
 }
 
 .visit_content p {
@@ -541,30 +539,27 @@ footer a:hover {
 }
 
 .visit_img img {
-  width: 400px;
+  height: 200px;
+  width: 250px;
   border-radius: 83px;
 }
-.visit_grid2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  height: fit-content;
+
+.visit_flex2 {
+  display: flex;
 }
 
 .map_info {
-  background-color: var(--brand-green);
-  width: 500px;
-  height: fit-content;
   position: relative;
-  border-radius: 83px;
+  background-color: var(--brand-green);
+  width: 600px;
+  border-radius: 83px 83px 0px 0px;
+  padding: 40px;
 }
 
-.map_info h2 {
-  margin: 40px 40px 0px 40px;
-}
-
-.map_info p {
-  margin: 0px 40px 40px 40px;
+#gmap_canvas {
+  height: 500px;
+  width: 600px;
+  border-radius: 0px 0px 83px 83px;
 }
 
 .visit_info_cards {
@@ -572,7 +567,7 @@ footer a:hover {
   padding: 50px;
   border-radius: 83px;
   position: relative;
-  margin-bottom: 30px;
+  margin: 0px 0px 30px 60px;
 }
 
 .hexagon_container3 {
@@ -580,8 +575,7 @@ footer a:hover {
   height: 55px;
   width: 55px;
   left: -4%;
-  top: 25px;
-  z-index: 2;
+  top: 15%;
 }
 
 .hexagon_container3:hover {
@@ -665,6 +659,33 @@ footer a:hover {
   .exhibit_card img {
     height: 350px;
   }
+
+  .exhibit_content {
+    padding: 0px 20px 0px 70px;
+  }
+
+  .exhibit_hero_content h2 {
+    font-size: 20px;
+  }
+
+  .exhibit_content p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .map_info {
+    width: 500px;
+  }
+
+  #gmap_canvas {
+    height: 400px;
+    width: 500px;
+  }
+
+  .exhibit_card_img img {
+    width: 470px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -699,11 +720,6 @@ footer a:hover {
     width: 350px;
   }
 
-  .exhibit_hero_content h2 {
-    font-size: 20px;
-    margin: 60px 0px 20px 0px;
-  }
-
   .exhibit_img img {
     height: 200px;
   }
@@ -717,11 +733,21 @@ footer a:hover {
     height: 400px;
   }
 
-  .exhibit_content h2 {
-    font-size: 20px;
+  /* exhibit page */
+
+  .exhibit_content {
+    padding: 0px 20px 0px 30px;
   }
-  .exhibit_content p {
-    font-size: 12px;
+
+  /* visit page */
+
+  .visit_flex2 {
+    flex-direction: column;
+  }
+
+  .visit_info_cards {
+    width: 500px;
+    margin-left: 0;
   }
 }
 
