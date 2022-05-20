@@ -1208,4 +1208,29 @@ footer a:hover {
   .hexagon_container2 {
     top: -98%;
   }
+
+  /* visit page mobile */
+    .visit_img img {
+      width: 300px;
+      margin-bottom: 30px;
+    }
+
+    .map_info {
+      width: 300px;
+    }
+
+    #gmap_canvas {
+      width: 300px;
+    }
+
+    .visit_info_cards {
+      width: 300px;
+      margin-top: 60px;
+    }
+
+    .hexagon_container3 {
+      left: 40%;
+      top: -60px;
+    }
+  }
 }
