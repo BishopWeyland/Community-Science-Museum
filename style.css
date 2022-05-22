@@ -39,6 +39,9 @@ h3 {
   font-weight: 900;
 }
 
+.h2small {
+}
+
 a {
   font-family: "Roboto", sans-serif;
 }
@@ -438,20 +441,28 @@ footer h2 {
   margin: 20px 0px 30px;
 }
 
+.footer_nav {
+  display: flex;
+  justify-content: center;
+}
+
 .footer_nav li {
   display: flex;
   margin-bottom: 10px;
-  justify-content: center;
 }
 
 footer a:hover {
   border-bottom: solid 2px white;
 }
 
+.footer_aditional_info {
+  display: flex;
+  justify-content: center;
+}
+
 .footer_aditional_info li {
   display: flex;
   margin-bottom: 10px;
-  justify-content: center;
 }
 
 .footer_bottom {
@@ -1226,35 +1237,34 @@ footer a:hover {
 
   /* visit page mobile */
 
-.visit_content {
-  width: 300px;
-}
+  .visit_content {
+    width: 300px;
+  }
 
-.hour_content {
-  width: 300px;
-}
+  .hour_content {
+    width: 300px;
+  }
 
-    .visit_img img {
-      width: 300px;
-      margin-bottom: 30px;
-    }
+  .visit_img img {
+    width: 300px;
+    margin-bottom: 30px;
+  }
 
-    .map_info {
-      width: 300px;
-    }
+  .map_info {
+    width: 300px;
+  }
 
-    #gmap_canvas {
-      width: 300px;
-    }
+  #gmap_canvas {
+    width: 300px;
+  }
 
-    .visit_info_cards {
-      width: 300px;
-      margin-top: 60px;
-    }
+  .visit_info_cards {
+    width: 300px;
+    margin-top: 60px;
+  }
 
-    .hexagon_container3 {
-      left: 40%;
-      top: -60px;
-    }
+  .hexagon_container3 {
+    left: 40%;
+    top: -60px;
   }
 }
