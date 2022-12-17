@@ -6,8 +6,8 @@ This is the semester project for the first year of the "front-end development" c
 
 ## Description
 
-The assignment for this project was making a museum website with 4-6 pages. It needed a design that to appeals to a targeted demographic. Focus on compositional principles, typography and color schemes.
-The HTML needed to be semantic and neatly intended. Follow the DRY principle for the CSS.
+The assignment for this project was making a museum website with 4-6 pages. It needed a design that appeals to a targeted demographic. Focus on compositional principles, typography and color schemes.
+The HTML needed to be semantic and neatly indented. It should follow the DRY principle for the CSS.
 The website should download quickly and image sized below 200kb.
 Focus on WCAG principles and SEO.
 
@@ -25,7 +25,7 @@ Focus on WCAG principles and SEO.
 
 ## Live link
 
-- [Communitt Science Museum](https://verdant-biscochitos-ed35fd.netlify.app)
+- [Community Science Museum](https://verdant-biscochitos-ed35fd.netlify.app)
 
 ## Acknowledgments
 
